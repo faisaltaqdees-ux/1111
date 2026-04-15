@@ -1,1 +1,0 @@
-# COMPREHENSIVE CODE REVIEW: PSL Pulse Frontend Pages
