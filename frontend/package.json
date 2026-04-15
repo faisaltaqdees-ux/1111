@@ -2,13 +2,10 @@
   "name": "psl-pulse-frontend",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://faisaltaqdees-ux.github.io/1111",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next build",
-    "deploy": "next build && gh-pages -d out",
     "lint": "eslint",
     "type-check": "tsc --noEmit",
     "format": "prettier --write ."

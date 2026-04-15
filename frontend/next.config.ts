@@ -1,18 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  basePath: "/1111",
-  output: "export",
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  swcMinify: false,
-  images: {
-    unoptimized: true,
-  },
+  /* config options here */
 };
 
 export default nextConfig;
