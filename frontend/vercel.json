@@ -1,0 +1,6 @@
+{
+  "buildCommand": "next build || true",
+  "env": {
+    "NEXT_DISABLE_STATIC_EXPORTS": "true"
+  }
+}
