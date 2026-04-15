@@ -2,11 +2,13 @@
   "name": "psl-pulse-frontend",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://faisaltaqdees-ux.github.io/1111",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "export": "next build",
+    "deploy": "next build && gh-pages -d out",
     "lint": "eslint",
     "type-check": "tsc --noEmit",
     "format": "prettier --write ."
@@ -38,6 +40,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.3",
+    "gh-pages": "^6.3.0",
     "prettier": "^3.1.1",
     "tailwindcss": "^4",
     "typescript": "^5"
