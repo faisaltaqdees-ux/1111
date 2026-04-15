@@ -1,0 +1,39 @@
+{
+  "network": "wirefluidTestnet",
+  "deployment_date": "2025-04-13",
+  "deployer": "0x85edFCCff20a3617FaD9E69EEe69b196640627E4",
+  "contracts": {
+    "PSLImpactMarket": {
+      "address": "0xA72D5477F124a4A6EC54Ea27AeBA7e75f3d2e71d",
+      "type": "ERC-20 Market Contract",
+      "txHash": "0x6406cadde2bf1b752e596e7a014e74caf186896c20dfd9da8cc64364569f791f",
+      "blockExplorer": "https://wirefluidscan.com/address/0xA72D5477F124a4A6EC54Ea27AeBA7e75f3d2e71d"
+    },
+    "ImpactBadge": {
+      "address": "0x3AdcC725Cef89f89be639E204bC1bb7260a34B9a",
+      "type": "ERC-721 Badge",
+      "txHash": "0xbc324823dd567c3e7749387b367ffe0acad885ed95cf3e57903be24bdd823647",
+      "blockExplorer": "https://wirefluidscan.com/address/0x3AdcC725Cef89f89be639E204bC1bb7260a34B9a"
+    },
+    "PSLTicket": {
+      "address": "0x03D9Ec0A0C71968a95a8B0F5b2276A67911803ee",
+      "type": "ERC-721 Ticket",
+      "txHash": "0x2d5048024d809e013f339b265828d6ba5358489e3509adc05ac0c09564608f04",
+      "blockExplorer": "https://wirefluidscan.com/address/0x03D9Ec0A0C71968a95a8B0F5b2276A67911803ee"
+    }
+  },
+  "setup_transactions": {
+    "grant_minter_role": "0x6fe7be45cbd1cda5f36497a7c6737ac9c67856db874c0eac5bb82fb64d558433",
+    "grant_oracle_role": "0xb6b098290cf684f86e35c2d653238f0c2ca3e057113130411bf67614cb395c65",
+    "create_match_1": "0xffc7c46cff2825732666d232d5eaedff466ddbadba4f1b3ba6f291c100d5f157",
+    "initialize_match_1": "0x0fa580c1a15fb7958068f03b6fa7ff5784698fe3359f52b4acb9647c2a6b4ac3"
+  },
+  "environment_variables": {
+    "NEXT_PUBLIC_MARKET_ADDRESS": "0xA72D5477F124a4A6EC54Ea27AeBA7e75f3d2e71d",
+    "NEXT_PUBLIC_BADGE_ADDRESS": "0x3AdcC725Cef89f89be639E204bC1bb7260a34B9a",
+    "NEXT_PUBLIC_TICKET_ADDRESS": "0x03D9Ec0A0C71968a95a8B0F5b2276A67911803ee"
+  },
+  "rpc_endpoint": "https://evm.wirefluid.com",
+  "chain_id": 92533,
+  "notes": "PSL Pulse smart contracts successfully deployed to WireFluid testnet. All three core contracts deployed and seeded with sample match data."
+}

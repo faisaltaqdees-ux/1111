@@ -1,0 +1,44 @@
+{
+  "name": "psl-pulse-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.103.0",
+    "axios": "^1.6.8",
+    "classnames": "^2.3.2",
+    "ethers": "^6.13.0",
+    "framer-motion": "^12.38.0",
+    "next": "16.2.3",
+    "next-themes": "^0.2.1",
+    "qrcode": "^1.5.4",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-hot-toast": "^2.4.1",
+    "react-window": "^2.2.7",
+    "speakeasy": "^2.0.0",
+    "supabase": "^2.91.1",
+    "swr": "^2.4.1",
+    "zustand": "^4.4.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/classnames": "^2.3.1",
+    "@types/node": "^20",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.3",
+    "prettier": "^3.1.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

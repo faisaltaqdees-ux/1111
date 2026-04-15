@@ -1,0 +1,30 @@
+
+> psl-pulse-frontend@1.0.0 build
+> next build
+
+ΓÜá Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\HP\Pictures\Desktop\For hackathon\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\Users\HP\Pictures\Desktop\For hackathon\frontend\package-lock.json
+
+Γû▓ Next.js 16.2.3 (Turbopack)
+- Environments: .env.local
+
+  Creating an optimized production build ...
+Γ£ô Compiled successfully in 10.1s
+  Running TypeScript ...
+Failed to type check.
+
+./lib/worldClassChat/index.ts:99:3
+Type error: Module '"./responseGenerationPipeline"' has no exported member 'ResponseTemplate'. Did you mean to use 'import ResponseTemplate from "./responseGenerationPipeline"' instead?
+
+   97 | export { default as ResponseGenerationPipeline } from './responseGenerationPipeline';
+   98 | export type {
+>  99 |   ResponseTemplate
+      |   ^
+  100 | } from './responseGenerationPipeline';
+  101 |
+  102 | /**
+Next.js build worker exited with code: 1 and signal: null
